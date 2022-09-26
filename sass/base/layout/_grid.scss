@@ -1,6 +1,6 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
+  // background-color: #eee;
   margin: 0 auto;
 
   //   font-size: 4rem;
@@ -10,15 +10,15 @@
   //
   @include clearfix;
   [class^="col-"] {
-    height: 3rem;
-    color: $color-white;
-    background-color: orangered;
+    // height: 3rem;
+    // color: $color-white;
+    // background-color: orangered;
     float: left;
     &:not(:last-child) {
       margin-right: $gutter-horizental;
     }
-    font-size: 2rem;
-    text-align: center;
+    // font-size: 2rem;
+    // text-align: center;
   }
   //
   .col-1-of-2 {
